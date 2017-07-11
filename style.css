@@ -1,0 +1,170 @@
+body{
+  margin-right: auto;
+  margin-left: auto;
+  color:white;
+  background-color:#DBAD6A;
+}
+
+#getQuote{
+  margin-top:2%;
+  width:180;
+  margin-right: auto;
+  margin-left:auto;
+  box-shadow: 2px 2px 1px #000000;
+}
+#getQuote:hover{
+  margin-top:2%;
+  width:180;
+  margin-right: auto;
+  margin-left:auto;
+  box-shadow: 2px 2px 1px #555555;
+}
+.message{
+  color: white;
+  width:inherit;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top:2%;
+  padding:20px;
+  font-family: 'Roboto', sans-serif;
+  font-size:1.0em;
+  
+}
+.author{
+  width:400px;
+  margin-right:auto;
+  margin-left:auto;
+  display: inline-block;
+  font-family: 'Khula', sans-serif;
+}
+.twitter-share-button{
+  width:300px;
+  height:0;
+   margin-right:auto;
+  margin-left:auto;
+  margin-top:2%;
+  padding-bottom:30%;
+  background-color:#0084d9;
+  color:white;
+  padding:2%;
+  border-radius:5%;
+  margin:5%;
+  box-shadow: 2px 2px 1px #000000;
+ 
+}
+.twitter-share-button:hover{
+  background-color:#0084eF;
+  text-decoration:none;
+  color:white;
+  box-shadow: 2px 2px 1px #555555;
+}
+h2{
+  margin-top:5%;
+  width:100%;
+  margin-left:auto;
+  margin-right: auto;
+  color:black;
+  font-family: 'Khula', sans-serif;
+}
+
+/*Computer*/
+#computer{
+  width:80%;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:5%;
+  background-color:inherit;
+}
+#screen{
+  width:60%;
+  height: 0;
+  padding-bottom: 30%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#0d1423;
+  border-style:solid;
+  border-color:black;
+  border-width:10px;
+  border-radius:10px 10px 0px 0px;
+  box-shadow: 2px 2px 1px #333333;
+  
+}
+#keyboard{
+  width:70%;
+  height:20px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#d3dde5;
+  align:center;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 2px 2px 1px #333333;
+}
+  #detail{
+  background-color:grey;
+  width: 100px;
+  height:10px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+@media only screen and (max-width: 768px) {
+  /*Computer on mobile*/
+#computer{
+  width:100%;
+  height:50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:5%;
+  background-color:inherit;
+}
+#screen{
+  width:90%;
+  height: 100%;
+  padding: 30,30,30,0;
+  padding-bottom: 30%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#0d1423;
+  border-radius:10px 10px 0px 0px;
+  /*need to add border*/
+  
+  
+}
+#keyboard{
+  width:100%;
+  height:20px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#d3dde5;
+  align:center;
+  border-radius: 0px 0px 10px 10px;
+}
+  #detail{
+  background-color:grey;
+  width: 100px;
+  height:10px;
+  margin-left:auto;
+  margin-right:auto;
+}
+}
+
+footer{
+  text-align:center;
+  height:40px;
+  margin-top:2%;
+  width: 100%;
+}
+.quoteDiv{
+  width:400px;
+  margin-right:auto;
+  margin-left:auto;
+  display: inline-block;
+}
+button{
+  background-color:#d3dde5;
+  border-color:none;
+}
+button:hover{
+  background-color:white;
+}
